@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+   <record id="action_owl_todo_list" model="ir.actions.client">
+        <field name="name">Todo List OWL</field>
+        <field name="tag">owl.todo_list_action</field> <!-- هذا الوسم يربط الواجهة بالجافا سكريبت -->
+    </record>
+
+ <menuitem id="menu_owl_todo_root"
+          name="Todo List (OWL)"
+          sequence="20"/>
+<menuitem id="menu_owl_todo_list_js"
+          name="Todo List (OWL)"
+          parent="menu_owl_todo_root"
+          action="action_owl_todo_list"
+          sequence="20"/>
+  </data>
+</odoo>
