@@ -1,3 +1,4 @@
+// Odoo.sh course - first development change
 import { registry } from "@web/core/registry";
 import { Component, useState } from "@odoo/owl";
 
